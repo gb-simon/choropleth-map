@@ -1,0 +1,36 @@
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+#title {
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin: 10px 5px 10px 5px;
+}
+#description {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin: 10px 5px 10px 5px;
+}
+#tooltip {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 8px;
+  padding:10px;
+  color: white;
+  box-shadow: 0px 0px 10px 1px;
+  position:absolute;
+  width:fit-content;
+  text-align:center;
+}
+.container {
+  width: fit-content;
+  height: fit-content;
+  margin: 20px auto 20px auto;
+}
+.states {
+  fill: none;
+  stroke: white;
+  stroke-linejoin: round;
+}
